@@ -1,0 +1,32 @@
+name: Question
+description: Ask a question about a t0lab project
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? Feel free to ask here, or check out [Discussions](https://github.com/orgs/t0lab/discussions) for broader topics.
+
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Which t0lab project is this about?
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Describe your question in detail.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any relevant context (what you've tried, docs you've read, etc.)
+    validations:
+      required: false
