@@ -8,11 +8,11 @@ Files in this repository are automatically applied to all repositories under the
 
 | File | Purpose |
 |------|---------|
-| `ISSUE_TEMPLATE/bug_report.yml` | Bug report form |
-| `ISSUE_TEMPLATE/feature_request.yml` | Feature request form |
-| `ISSUE_TEMPLATE/question.yml` | Question form |
-| `ISSUE_TEMPLATE/config.yml` | Issue template chooser config |
-| `PULL_REQUEST_TEMPLATE/` | Default pull request template |
+| `.github/ISSUE_TEMPLATE/bug_report.yml` | Bug report form |
+| `.github/ISSUE_TEMPLATE/feature_request.yml` | Feature request form |
+| `.github/ISSUE_TEMPLATE/question.yml` | Question form |
+| `.github/ISSUE_TEMPLATE/config.yml` | Issue template chooser config |
+| `.github/PULL_REQUEST_TEMPLATE/` | Default pull request template |
 | `CONTRIBUTING.md` | Contribution guidelines |
 | `CODE_OF_CONDUCT.md` | Community code of conduct |
 | `SECURITY.md` | Vulnerability reporting policy |
