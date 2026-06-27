@@ -1,17 +1,17 @@
 name: Question
-description: Ask a question about a t0lab project
+description: Ask a question about a timezlab project
 labels: ["question"]
 body:
   - type: markdown
     attributes:
       value: |
-        Have a question? Feel free to ask here, or check out [Discussions](https://github.com/orgs/t0lab/discussions) for broader topics.
+        Have a question? Feel free to ask here, or check out [Discussions](https://github.com/orgs/timezlab/discussions) for broader topics.
 
   - type: input
     id: project
     attributes:
       label: Project
-      description: Which t0lab project is this about?
+      description: Which timezlab project is this about?
     validations:
       required: true
 

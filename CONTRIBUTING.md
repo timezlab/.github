@@ -1,6 +1,6 @@
-# Contributing to t0lab
+# Contributing to timezlab
 
-Thanks for your interest in contributing! This guide applies to all repositories under the **t0lab** organization.
+Thanks for your interest in contributing! This guide applies to all repositories under the **timezlab** organization.
 
 ## Getting Started
 

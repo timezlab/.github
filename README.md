@@ -1,8 +1,8 @@
 # .github
 
-Organization-wide default community health files and templates for **t0lab**.
+Organization-wide default community health files and templates for **timezlab**.
 
-Files in this repository are automatically applied to all repositories under the [t0lab](https://github.com/t0lab) organization that don't have their own versions.
+Files in this repository are automatically applied to all repositories under the [timezlab](https://github.com/timezlab) organization that don't have their own versions.
 
 ## What's Included
 

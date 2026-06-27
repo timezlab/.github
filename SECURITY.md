@@ -2,11 +2,11 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in any t0lab project, please report it responsibly.
+If you discover a security vulnerability in any timezlab project, please report it responsibly.
 
 **Do NOT open a public issue.**
 
-Instead, please email: **security@t0lab.dev** (or use GitHub's private vulnerability reporting if enabled on the repository).
+Instead, please email: **security@timezlab.org** (or use GitHub's private vulnerability reporting if enabled on the repository).
 
 ### What to include
 
@@ -27,4 +27,4 @@ Each project maintains its own support policy. Generally, only the latest major 
 
 ## Scope
 
-This policy applies to all repositories under the [t0lab](https://github.com/t0lab) organization.
+This policy applies to all repositories under the [timezlab](https://github.com/timezlab) organization.
