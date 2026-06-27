@@ -1,11 +1,13 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&section=header&color=0:111827,45:7B61FF,100:FF6B35&text=timezlab&fontSize=58&fontColor=F8FAFC&fontAlignY=35&animation=fadeIn&desc=From%20Zero%20to%20Everything%20for%20agent-native%20software&descAlignY=60&descSize=16" alt="timezlab" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&color=0:111827,45:7B61FF,100:FF6B35&text=timezlab&fontSize=64&fontColor=F8FAFC&fontAlignY=36&animation=fadeIn&desc=From%20Zero%20to%20Everything%20for%20agent-native%20software&descAlignY=58&descSize=17" alt="timezlab" />
   <br />
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3200&pause=900&color=70A5FD&center=true&vCenter=true&width=840&height=44&lines=Build+the+environment%2C+not+only+the+agent;Make+AI+work+observable%2C+reviewable%2C+and+owned;From+specs+to+signals%2C+from+context+to+decisions" alt="Typing SVG" />
   </a>
   <br />
   <sub><a href="./README.md">English</a> / <a href="./README.vi.md">Tiếng Việt</a></sub>
+  <br />
+  <br />
 </div>
 
 <p align="center">
@@ -44,13 +46,13 @@ timezlab exists to shape the connective layer between humans, agents, data, and 
 ## Ecosystem
 
 <p align="center">
-  <a href="https://github.com/timezlab/specdeck"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=specdeck&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="SpecDeck" /></a>
-  <a href="https://github.com/timezlab/harness-kit"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=harness-kit&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="Harness Kit" /></a>
+  <a href="https://github.com/timezlab/specdeck"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=specdeck&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35&description_lines_count=2" alt="SpecDeck" /></a>
+  <a href="https://github.com/timezlab/harness-kit"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=harness-kit&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35&description_lines_count=2" alt="Harness Kit" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/timezlab/huginn"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=huginn&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="Huginn" /></a>
-  <a href="https://github.com/timezlab/any2md"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=any2md&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="any2md" /></a>
+  <a href="https://github.com/timezlab/huginn"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=huginn&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35&description_lines_count=2" alt="Huginn" /></a>
+  <a href="https://github.com/timezlab/any2md"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=any2md&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35&description_lines_count=2" alt="any2md" /></a>
 </p>
 
 | Domain | Direction | Projects |
