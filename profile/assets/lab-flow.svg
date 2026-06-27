@@ -1,0 +1,93 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">timezlab animated workflow</title>
+  <desc id="desc">Animated workflow connecting specs, harnesses, observability, knowledge, and data intelligence.</desc>
+  <defs>
+    <linearGradient id="rail" x1="105" y1="130" x2="1095" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7B61FF"/>
+      <stop offset="0.28" stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#34D399"/>
+      <stop offset="0.78" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#FF6B35"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .bg { fill: #0d1117; }
+      .grid { stroke: #30363d; stroke-width: 1; opacity: .28; }
+      .rail { stroke: url(#rail); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 12 14; animation: dash 5s linear infinite; }
+      .halo { fill: none; stroke-width: 2; opacity: .55; transform-origin: center; animation: pulse 2.8s ease-in-out infinite; }
+      .node { fill: #0d1117; stroke-width: 3; }
+      .label { fill: #f0f6fc; font: 700 20px ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+      .sub { fill: #8b949e; font: 500 13px ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+      .spark { filter: url(#softGlow); }
+      .t1 { animation-delay: 0s; }
+      .t2 { animation-delay: .35s; }
+      .t3 { animation-delay: .7s; }
+      .t4 { animation-delay: 1.05s; }
+      .t5 { animation-delay: 1.4s; }
+      @keyframes dash { to { stroke-dashoffset: -130; } }
+      @keyframes pulse { 0%, 100% { transform: scale(.85); opacity: .28; } 50% { transform: scale(1.25); opacity: .78; } }
+    </style>
+    <path id="motionPath" d="M105 130 C230 60 340 200 470 130 S720 60 850 130 S980 200 1095 130"/>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="260" rx="8"/>
+  <path class="grid" d="M60 40H1140M60 220H1140M140 24V236M360 24V236M600 24V236M840 24V236M1060 24V236"/>
+  <use href="#motionPath" class="rail"/>
+
+  <g>
+    <circle class="halo t1" cx="105" cy="130" r="38" stroke="#7B61FF"/>
+    <circle class="node" cx="105" cy="130" r="24" stroke="#7B61FF"/>
+    <text class="label" x="105" y="190" text-anchor="middle">Spec</text>
+    <text class="sub" x="105" y="211" text-anchor="middle">intent</text>
+  </g>
+
+  <g>
+    <circle class="halo t2" cx="350" cy="130" r="38" stroke="#22D3EE"/>
+    <circle class="node" cx="350" cy="130" r="24" stroke="#22D3EE"/>
+    <text class="label" x="350" y="190" text-anchor="middle">Harness</text>
+    <text class="sub" x="350" y="211" text-anchor="middle">environment</text>
+  </g>
+
+  <g>
+    <circle class="halo t3" cx="600" cy="130" r="38" stroke="#34D399"/>
+    <circle class="node" cx="600" cy="130" r="24" stroke="#34D399"/>
+    <text class="label" x="600" y="190" text-anchor="middle">Observe</text>
+    <text class="sub" x="600" y="211" text-anchor="middle">evidence</text>
+  </g>
+
+  <g>
+    <circle class="halo t4" cx="850" cy="130" r="38" stroke="#FBBF24"/>
+    <circle class="node" cx="850" cy="130" r="24" stroke="#FBBF24"/>
+    <text class="label" x="850" y="190" text-anchor="middle">Knowledge</text>
+    <text class="sub" x="850" y="211" text-anchor="middle">context</text>
+  </g>
+
+  <g>
+    <circle class="halo t5" cx="1095" cy="130" r="38" stroke="#FF6B35"/>
+    <circle class="node" cx="1095" cy="130" r="24" stroke="#FF6B35"/>
+    <text class="label" x="1095" y="190" text-anchor="middle">Data</text>
+    <text class="sub" x="1095" y="211" text-anchor="middle">insight</text>
+  </g>
+
+  <circle class="spark" r="8" fill="#FFFFFF">
+    <animateMotion dur="5.6s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#motionPath"/>
+    </animateMotion>
+  </circle>
+  <circle class="spark" r="5" fill="#22D3EE" opacity=".85">
+    <animateMotion dur="5.6s" begin="1.4s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#motionPath"/>
+    </animateMotion>
+  </circle>
+  <circle class="spark" r="5" fill="#FF6B35" opacity=".85">
+    <animateMotion dur="5.6s" begin="2.8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#motionPath"/>
+    </animateMotion>
+  </circle>
+</svg>
