@@ -1,65 +1,78 @@
 <div align="center">
-
-<h1>timezlab</h1>
-
-<p><strong>Agent-native software labs for specs, operations, knowledge, and data intelligence.</strong></p>
-
-<p>
-  <a href="https://timezlab.org">timezlab.org</a>
-  <span> / </span>
-  <a href="https://harness.timezlab.org">Harness Kit</a>
-  <span> / </span>
-  <a href="https://github.com/timezlab">GitHub</a>
-</p>
-
-<p>
-  <code>spec-first</code>
-  <code>evidence-driven</code>
-  <code>self-hosted</code>
-  <code>human-in-the-loop</code>
-</p>
-
-<img src="./assets/lab-flow.svg" alt="Animated timezlab workflow: Spec, Harness, Observe, Knowledge, Data" width="100%" />
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&section=header&color=0:111827,45:7B61FF,100:FF6B35&text=timezlab&fontSize=58&fontColor=F8FAFC&fontAlignY=35&animation=fadeIn&desc=From%20Zero%20to%20Everything%20for%20agent-native%20software&descAlignY=60&descSize=16" alt="timezlab" />
+  <br />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3200&pause=900&color=70A5FD&center=true&vCenter=true&width=840&height=44&lines=Build+the+environment%2C+not+only+the+agent;Make+AI+work+observable%2C+reviewable%2C+and+owned;From+specs+to+signals%2C+from+context+to+decisions" alt="Typing SVG" />
+  </a>
+  <br />
+  <sub><a href="./README.md">English</a> / <a href="./README.vi.md">Tiếng Việt</a></sub>
 </div>
+
+<p align="center">
+  <img alt="Spec-first contracts" src="https://img.shields.io/badge/spec--first-contracts-7B61FF?style=flat-square&logo=gitbook&logoColor=white" />
+  <img alt="Agent graphs" src="https://img.shields.io/badge/agent--graphs-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img alt="Self-hosted systems" src="https://img.shields.io/badge/self--hosted-owned-009688?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="Observability" src="https://img.shields.io/badge/observability-LGTM-F46800?style=flat-square&logo=grafana&logoColor=white" />
+  <img alt="Context engineering" src="https://img.shields.io/badge/context-engineering-000000?style=flat-square&logo=markdown&logoColor=white" />
+  <img alt="Lakehouse GenBI" src="https://img.shields.io/badge/lakehouse-GenBI-FF3621?style=flat-square&logo=databricks&logoColor=white" />
+</p>
 
 ---
 
-timezlab builds practical systems for the next layer of software work: agents that can plan with explicit specs, act inside owned environments, observe production systems, convert messy context, and explain decisions with evidence.
+timezlab is a practical research lab for agent-native software: systems where humans define intent, agents work inside owned environments, and every important result can be inspected, explained, and improved.
 
-We like tools that are small enough to understand, serious enough to run, and open enough to adapt. The goal is not to replace judgment, but to move humans to the decisions that matter: scope, review, approval, and trust.
+## Mission
 
-## Lab Themes
+Make AI-assisted work trustworthy enough for real teams by turning vague automation into explicit specs, prepared context, observable execution, and evidence-backed review.
 
-| Theme | What we explore | Why it matters |
-|-------|-----------------|----------------|
-| Agentic engineering | Spec-first task orchestration, isolated worktrees, independent checking, and evidence-based review. | Teams can run more agent work without drowning in diffs. |
-| Agent harnesses | Project-owned instructions, skills, memory, and environment scaffolds for coding agents. | Better environments make agents more useful than bigger prompts alone. |
-| Self-hosted operations | Observability, RCA, remediation suggestions, and chat-based operations on owned infrastructure. | On-call work needs context, citations, and controlled automation. |
-| Knowledge pipelines | Converting messy documents into structured Markdown and agent-ready context. | Better context makes retrieval, reasoning, and review more reliable. |
-| Data intelligence | GenBI agents over lakehouse systems with semantic profiles, text-to-SQL, self-correction, governance, and visualization. | Business users should ask data questions naturally without losing control or auditability. |
+## Vision
 
-## Public Work
+A future where AI becomes a dependable extension of the team: able to understand intent, operate within clear boundaries, learn from shared context, and return work with evidence that people can trust.
 
-| Project | Focus | Status |
-|---------|-------|--------|
-| [SpecDeck](https://github.com/timezlab/specdeck) | A control deck for asynchronous coding agents. Humans review specs, checks, and evidence instead of every line of diff. | Concept and UI scaffold |
-| [Harness Kit](https://harness.timezlab.org) | CLI and docs for installing project-owned agent harness artifacts. | Public docs live |
-| [Huginn](https://github.com/timezlab/huginn) | Self-hosted observability with an AI agent for RCA, chat, and remediation suggestions. | Design phase |
-| [any2md](https://github.com/timezlab/any2md) | Pure-Python document conversion into clean Markdown for knowledge bases and agent workflows. | Active library |
+timezlab exists to shape the connective layer between humans, agents, data, and operations so faster software work does not come at the cost of ownership, clarity, or judgment.
 
-## Operating Principles
+## What We Believe
 
-1. Specs are contracts. They should be reviewable before code is written and testable after work is done.
-2. Evidence beats vibes. A passed check should point to logs, tests, screenshots, traces, or cited data.
-3. Self-hosted is a product requirement. Teams should be able to run core systems with their own keys, data, and infrastructure.
-4. Agents need boundaries. Narrow tools, explicit permissions, observable traces, and approval gates make automation safer.
-5. Context is infrastructure. Docs, telemetry, schemas, and business semantics should be prepared as first-class inputs.
+| Belief | What it means for our work |
+|--------|----------------------------|
+| Intent should be explicit | Important work starts from a spec that humans can understand before implementation begins. |
+| Context is infrastructure | Documents, schemas, traces, metrics, prompts, and semantic profiles are part of the system, not side notes. |
+| Evidence creates trust | A completed task should bring proof: tests, screenshots, logs, traces, citations, or reproducible outputs. |
+| Ownership matters | Teams should be able to run core workflows with their own data, keys, machines, and policies. |
+| Humans stay at the judgment layer | Agents can plan, build, check, and suggest; humans approve direction, risk, and meaning. |
 
-## Useful Links
+## Ecosystem
 
-| Link | Destination |
-|------|-------------|
-| Website | [timezlab.org](https://timezlab.org) |
-| Harness Kit docs | [harness.timezlab.org](https://harness.timezlab.org) |
-| GitHub organization | [github.com/timezlab](https://github.com/timezlab) |
+<p align="center">
+  <a href="https://github.com/timezlab/specdeck"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=specdeck&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="SpecDeck" /></a>
+  <a href="https://github.com/timezlab/harness-kit"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=harness-kit&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="Harness Kit" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/timezlab/huginn"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=huginn&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="Huginn" /></a>
+  <a href="https://github.com/timezlab/any2md"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=timezlab&repo=any2md&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=FF6B35" alt="any2md" /></a>
+</p>
+
+| Domain | Direction | Projects |
+|--------|-----------|----------|
+| Agentic engineering | Spec-first coordination, human review, isolated agent work, and evidence gates. | [SpecDeck](https://github.com/timezlab/specdeck), [Harness Kit](https://harness.timezlab.org) |
+| Operations intelligence | Self-hosted observability, RCA, and controlled remediation for small teams and homelabs. | [Huginn](https://github.com/timezlab/huginn) |
+| Knowledge systems | Turning messy files, docs, and business context into structured context agents can use. | [any2md](https://github.com/timezlab/any2md) |
+| Data intelligence | Natural-language analytics over governed lakehouse systems with semantic understanding. | LakeMind |
+
+## Long-Term Questions
+
+| Question | Why it matters |
+|----------|----------------|
+| What should a project remember? | Agent performance depends on durable context, not just model capability. |
+| What makes work reviewable? | Teams need compact artifacts that explain intent, result, risk, and proof. |
+| What should remain local? | Privacy, cost, compliance, and autonomy all improve when core workflows can be self-hosted. |
+| How do agents earn trust over time? | Reliable systems need audit trails, feedback loops, and measured evidence, not one-off demos. |
+
+## Open Source
+
+timezlab publishes small, composable systems and keeps the craft visible: specs, design notes, docs, and implementation tradeoffs. Contributions, issues, and discussions are welcome when they make the work clearer, safer, or easier to run.
+
+<div align="center">
+  <sub>From Zero to Everything: build the harness, make the work observable, review the evidence.</sub>
+</div>
